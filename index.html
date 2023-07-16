@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color:#D3D3D3;">
+    <div class="container-chart">
+        <nav class="nav">
+            <h1 class="visits">Visits</h1>
+            <div class="percentage">
+                <iconify-icon icon="fluent:data-trending-20-filled" style="color: #23e60a;" width="48" height="48"></iconify-icon>
+                <p class="percentage-txt">+2.0%</p>
+            </div>
+            <div class="visitors-leads">
+                <iconify-icon icon="octicon:dot-fill-24" style="color: #0098d4;" width="48" height="48"></iconify-icon>
+                <p class="visitors">Visitors</p>
+                <iconify-icon icon="octicon:dot-fill-24" style="color: #3457D5;" width="48" height="48"></iconify-icon>
+                <p class="leads">Leads</p>
+            </div>
+            <div class="select-container">
+                <select class="select-yr">
+                    <option>2023</option>
+                    <option>2022</option>
+                    <option>2021</option>
+                    <option>2020</option>
+                </select>
+            </div>
+        </nav>
+        <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
+    </div>
+</body>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+</script>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+<script src="script.js"></script>
+</html>
