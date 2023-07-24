@@ -12,13 +12,13 @@
         <nav class="nav">
             <h1 class="visits">Visits</h1>
             <div class="percentage">
-                <iconify-icon icon="fluent:data-trending-20-filled" style="color: #23e60a;" width="48" height="48"></iconify-icon>
+                <iconify-icon icon="fluent:data-trending-20-filled" style="color: #23e60a;" width="30" height="30"></iconify-icon>
                 <p class="percentage-txt">+2.0%</p>
             </div>
             <div class="visitors-leads">
-                <iconify-icon icon="octicon:dot-fill-24" style="color: #0098d4;" width="48" height="48"></iconify-icon>
+                <iconify-icon icon="octicon:dot-fill-24" style="color: #2f36ba;" width="36" height="36" margin-top="40"></iconify-icon>
                 <p class="visitors">Visitors</p>
-                <iconify-icon icon="octicon:dot-fill-24" style="color: #3457D5;" width="48" height="48"></iconify-icon>
+                <iconify-icon icon="octicon:dot-fill-24" style="color: #aa204f;" width="36" height="36" margin-top="40"></iconify-icon>
                 <p class="leads">Leads</p>
             </div>
             <div class="select-container">
@@ -30,13 +30,14 @@
                 </select>
             </div>
         </nav>
+        <div id="chart-container"></div>
         <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
     </div>
 </body>
-<script
+<!--<script
 src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
-</script>
+</script>-->
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-
-<script src="script.js"></script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+ <script src="script.js"></script>
 </html>
